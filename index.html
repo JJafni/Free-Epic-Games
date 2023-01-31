@@ -5,32 +5,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.0.1/dist/tailwind.min.css%22%3E">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
   <title>Document</title>
 </head>
 
-<body class=" bg-gray-800 content-center p-8">
+<body class="bg-gray-800 p-8">
+  <div class="relative mx-auto">
+    <img id="card-1-img" src="test.jpg" alt="Image description"
+      class="w-2/4 h-full object-cover rounded-lg border-b-8 mx-auto">
+    <div class="text-white p-2 ">
+      <h1 id="card-1" class="text-4xl text-shadow-lg font-bold text-shadow-lg">Not Found</h1>
+      <p class="text-sm text-shadow-lg">-</p>
+    </div>
+    <br>
+    <br>
+    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+    <br>
+    
+  </div>
+  <div class="text-center text-white my-auto">
+    <h1 class="text-4xl text-shadow-lg font-bold text-shadow-lg">Current Free Games</h1>
+  </div>
   <br>
-  <div class="grid grid-cols-3 gap-6">
-
-    <div class="bg-gray-900 h-48 rounded-md border-white">
-      <h1 id="card-1" class="text-white flex justify-center content-center">Not Found 1</h1>
+  <div class="grid grid-cols-2 gap-20 p-12">
+    <div class="relative">
+      <img src="test.jpg" alt="Image description" class="w-full h-full object-cover border-4 rounded-lg rounded-shadow">
     </div>
-    <div class="bg-gray-900 h-48 rounded-md border-white">
-      <h1 id="card-2" class="text-white flex justify-center content-center">Not Found 2</h1>
-    </div>
-    <div class="bg-gray-900 h-48 rounded-md border-white">
-      <h1 id="card-3" class="text-white flex justify-center content-center">Not Found 3</h1>
-    </div>
-    </div>
-    <div class="grid grid-cols-3 gap-6">
-    <div class="bg-gray-900 h-48 rounded-md border-white">
-      <h1 id="card-4" class="text-white flex justify-center content-center">Not Found 4</h1>
-    </div>
-    <div class="bg-gray-900 h-48 rounded-md border-white">
-      <h1 id="card-5" class="text-white flex justify-center content-center">Not Found 5</h1>
+    <div class="relative shadow-lg">
+      <img src="test.jpg" alt="Image description" class="w-full h-full object-cover rounded-lg">
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
   <script src="main.js"></script>
 </body>
 
