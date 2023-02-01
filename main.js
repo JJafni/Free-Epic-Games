@@ -11,7 +11,7 @@
 //     .then(response => {
 //         console.log(response);
 
-//            //Last Free Games
+//            //Trending Sale
 //         document.getElementById("card-1").innerHTML = response.freeGames.current[0].title;
 //         document.getElementById("card-1-img").src = response.freeGames.current[0].keyImages[0].url;
 //         document.getElementById("card-1-price").innerHTML = response.freeGames.current[0].price.totalPrices.fmtPrice.discountPrice;
@@ -38,6 +38,6 @@
 //         document.getElementById("card-5").innerHTML = response.freeGames.upcoming[1].title;
 //         document.getElementById("card-5-img").src = response.freeGames.current[0].keyImages[0].url;
 //         document.getElementById("card-5-price").innerHTML = response.freeGames.current[0].price.totalPrices.fmtPrice.discountPrice;
-//         document.getElementById("card-5  -original-price").innerHTML = response.freeGames.current[0].price.totalPrices.fmtPrice.originalPrice;
+//         document.getElementById("card-5-original-price").innerHTML = response.freeGames.current[0].price.totalPrices.fmtPrice.originalPrice;
 //     })
 //     .catch(err => console.error(err));
