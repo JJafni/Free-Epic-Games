@@ -7,22 +7,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="C:\Users\jafni\OneDrive\Bureaublad\Bit-Academy\Doel\Free-Epic-Games\favicon_io\favicon.ico">
+  <link rel="icon" type="image/x-icon"
+    href="C:\Users\jafni\OneDrive\Bureaublad\Bit-Academy\Doel\Free-Epic-Games\pngfind.com-games-png-49515.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
-  <title>Free Epic Games</title>
+  <title>FreeEpicGames</title>
 </head>
 
 <body class="bg-gray-800 p-8">
 
   <!-- Trending Sale -->
 
-  <div class="relative mx-auto">
-    <img id="card-1-img" src="test.jpg" alt="Image description"
-      class="w-2/4 h-full object-cover rounded-lg border-4 border-red-600 mx-auto rounded-shadow">
+  <div class="relative grid grid-cols-2 mx-auto">
 
+    <div class="text-center col-span-2 mb-6">
+      <h1 class="text-6xl text-white text-shadow-lg font-bold inline-block italic d-inline-block">Trending Sale
+      </h1>
+      
+    </div>
+    
 
-  </div> <br> <br>
+    <img id="card-1-img" src="test.jpg" alt="Image description" class="col-span-2 object-cover rounded-lg border-4 border-red-600 mx-auto rounded-shadow shadow-lg shadow-red-400">
+  </div>
+  
+  <br>
+  <br>
   <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"> <br>
 
   <!-- Current Free Games -->
@@ -37,7 +46,7 @@
         </svg>
       </div>
       <div>
-        <h1 class="text-4xl text-shadow-lg font-bold text-shadow-lg inline-block italic">Current Free Games</h1>
+        <h1 class="text-4xl text-shadow-lg font-bold text-shadow-lg inline-block italic mx-1 text-green-400">Current</h1><h1 class="text-4xl text-shadow-lg text-shadow-lg inline-block italic mx-1">Free Games</h1>
       </div>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -58,7 +67,7 @@
         </svg>
       </div>
       <div>
-        <h1 class="text-4xl text-shadow-lg font-bold text-shadow-lg inline-block italic mx-1">Upcoming Free Games</h1>
+        <h1 class="text-4xl text-shadow-lg font-bold text-shadow-lg inline-block italic mx-1 text-orange-500">Upcoming</h1><h1 class="text-4xl text-shadow-lg text-shadow-lg inline-block italic mx-1">Free Games</h1>
       </div>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -90,13 +99,19 @@
 
 
     <div class="relative">
+      <div class="flex justify-center mb-4">
+        <h2 class="text-3xl text-shadow-lg text-white font-bold text-shadow-lg inline-block italic mx-1">Not Found</h2>
+      </div>
       <img id="card-4-img" src="test.jpg" alt="Image description"
-        class="w-full h-full object-cover border-4 border-orange-500 rounded-lg rounded-shadow shadow-lg shadow-orange-700">
+        class="animate-pulse w-full h-full object-cover border-4 border-orange-500 rounded-lg rounded-shadow shadow-lg shadow-orange-700">
     </div>
 
     <div class="relative">
+      <div class="flex justify-center mb-4">
+        <h2 class="text-3xl text-shadow-lg text-white font-bold text-shadow-lg inline-block italic mx-1">Not Found</h2>
+      </div>
       <img id="card-5-img" src="test.jpg" alt="Image description"
-        class="w-full h-full object-cover border-4 border-orange-500 rounded-lg rounded-shadow shadow-lg shadow-orange-700">
+        class="animate-pulse w-full h-full object-cover border-4 border-orange-500 rounded-lg rounded-shadow shadow-lg shadow-orange-700">
     </div>
   </div>
 
